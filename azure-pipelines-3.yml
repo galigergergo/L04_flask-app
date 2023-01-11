@@ -23,5 +23,5 @@ stages:
         pip install -r requirements.txt
       displayName: 'Install dependencies'
 
-    - script: python -m py_compile script.py
+    - script: python -m py_compile app.py
       displayName: 'Test compilation'
